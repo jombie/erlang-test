@@ -1,0 +1,14 @@
+{application, erlang_hello_cowboy, [
+	{description, "My First Cowboy hello!"},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy
+	]},
+	{mod, {erlang_hello_cowboy_app, []}},
+	{env, []}
+]}.
