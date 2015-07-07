@@ -1,0 +1,4 @@
+-name prelude@127.0.0.1
+-setcookie prelude
+-mnesia dir '"/work/workspace/prelude/Mnesia.ProcessInfo"'
+-heart

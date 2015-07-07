@@ -1,0 +1,6 @@
+deps/*
+ebin
+priv/*.so
+*.o
+*.beam
+_rel/*

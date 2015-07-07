@@ -1,0 +1,10 @@
+{application, prelude, [
+	{description, "Prelude test application"},
+	{vsn, "1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [ kernel, stdlib, cowboy, mnesia]},
+	{mod, {prelude_app, []}},
+	{env, []}
+]}.
